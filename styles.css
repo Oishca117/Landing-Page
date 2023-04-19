@@ -80,3 +80,54 @@ button {
     border: none;
 
 }
+
+/********************section 2*****************/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.header-text2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.box {
+    display: flex;
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.box-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
